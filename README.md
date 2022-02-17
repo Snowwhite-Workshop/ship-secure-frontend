@@ -12,7 +12,7 @@ $ cd ship-secure-frontend/ (the newly cloned folder)
 
 # Install project dependencies
 
-$ npm install (or yarn install - if you are using yarn)
+$ npm install
 
 Then,
 $ npm start (to start your application)
@@ -40,10 +40,10 @@ $
 # Creating a pull request
 
 // Goto https://github.com/Snowwhite-Workshop/ship-secure-frontend to immediatly see your commits in your branch.
-// You would be promted to create a pull request or you may navigate to "pull requests" tab and see create a pull request for your branch.
+// You would be prompted to create a pull request ("compare and pull request") or you may navigate to "pull requests" tab and see create a pull request for your branch.
 
 - select the appropriate branch you wish your own branch to be merged into,
-- add comments where necessary
+- add comments stating what the pull request is about (the changes you made)
 - select the "reviewers" and "assignees" options (optional) by the right hand side
 
 Then, create.
