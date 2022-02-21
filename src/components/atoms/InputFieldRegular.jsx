@@ -3,13 +3,27 @@ import IconButton from "@mui/material/IconButton";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputAdornment from "@mui/material/InputAdornment";
 import FormControl from "@mui/material/FormControl";
-import { Box, Typography } from "@mui/material";
+import FormLabel from "@mui/material/FormLabel";
+import FormHelperText from "@mui/material/FormHelperText";
+import Box from "@mui/material/Box";
 
-function InputFieldRegular({ label, icon, ...rest }) {
+function InputFieldRegular({
+  required,
+  label,
+  icon,
+  validateMessage,
+  ...rest
+}) {
   return (
     <Box>
-      <Typography sx={{ mb: 0.5 }} children={label} />
       <FormControl fullWidth variant="outlined">
+        <FormLabel
+          sx={{ mb: 1 }}
+          required={required}
+          id="demo-row-radio-buttons-group-label"
+        >
+          {label}
+        </FormLabel>
         <OutlinedInput
           {...rest}
           endAdornment={
@@ -18,6 +32,7 @@ function InputFieldRegular({ label, icon, ...rest }) {
             </InputAdornment>
           }
         />
+        <FormHelperText children={validateMessage} error />
       </FormControl>
     </Box>
   );
