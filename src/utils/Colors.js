@@ -1,0 +1,13 @@
+export const Colors = {
+    PRIMARY = "#850DCE",
+    SECONDARY = "#FAF2FF",
+    SECONDARY_LIGHT = "#E8C4FF",
+    MAIN_ACCENT = "#F6B05D",
+    SUCCESS = "#22B02E",
+    ERROR = "#D82C0D",
+    LOADING_SEA = "#01369A",
+    GREY = "#474747",
+    INFORMATION = "#0F62FE",
+    HEADER_COPY = "#3B3B3B",
+    BODY_TEXT = "#808080",
+}
