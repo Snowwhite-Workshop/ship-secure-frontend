@@ -11,6 +11,7 @@ function FaqIcon() {
             borderRadius: "16px"
             }}  
         disableElevation
+        fullWidth={true}
         >
             <ChatBubbleIcon 
             fontSize='large' 
