@@ -1,6 +1,8 @@
 import { Box } from "@mui/material";
 
-function ModalIcon({icon}) {
+function ModalIcon(props) {
+    const {icon} = props
+
     return ( 
         <Box
         component="div"
