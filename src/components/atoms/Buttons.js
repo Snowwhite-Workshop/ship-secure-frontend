@@ -1,10 +1,45 @@
 import { Button } from "@mui/material";
-import './style.css'
 
-function Buttons() {
+function Btns({
+    variant,
+    startIcon,
+    endIcon,
+    disabled,
+    text,
+    color,
+    width,
+    maxWidth,
+    margin,
+    padding
+}) {
     return (
-        < Button />
+        < Button
+            variant={variant}
+            sx={{
+                borderRadius: '20px',
+                textTransform: 'none',
+                fontWeight: 700,
+                width: width,
+                maxWidth: maxWidth,
+                margin: margin,
+                padding: padding
+            }}
+            startIcon={startIcon}
+            endIcon={endIcon}
+            color={color}
+            disabled={disabled}
+            disableElevation
+        >
+            <span>{text}</span>
+        </Button>
     )
 }
 
-export default Buttons;
+Btns.defaultProps = {
+    variant: "contained",
+    color: "primary",
+    width: "100%",
+    maxWidth: "100%",
+}
+
+export default Btns;
