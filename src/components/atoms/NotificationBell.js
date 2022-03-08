@@ -8,7 +8,7 @@ const HamDivStyle = {
   padding: "1rem",
   backgroundColor: "#ffffff",
   borderRadius: "11px",
-  backgroundColor: "pink",
+  backgroundColor: "white",
   marginLeft: "1rem",
   marginTop: "1rem",
 };
