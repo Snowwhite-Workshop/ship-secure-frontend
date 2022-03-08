@@ -1,11 +1,11 @@
 import Box from "@mui/material/Box";
+import './atoms.css';
 
 function Logo({dark, light, size}) {
      return (
          <Box
             sx={{
                 width: size,
-                background: 'grey'
             }} 
         >
             { dark && <img src="assets/Logo-dark.svg" alt="Logo"
