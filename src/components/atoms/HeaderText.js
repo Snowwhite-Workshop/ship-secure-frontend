@@ -15,6 +15,9 @@ export default function HeaderText(props) {
       fontSize={size}
       fontWeight={weight}
       textAlign={align}
-    ></Typography>
+      fontFamily={"Lato"}
+    >
+      {text}
+    </Typography>
   );
 }
