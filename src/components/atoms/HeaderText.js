@@ -8,8 +8,8 @@ export default function HeaderText(props) {
     text,
     weight = "700",
     align = "center",
-    padding,
-    paddingTop,
+    padding = "",
+    paddingTop="",
   } = props;
   return (
     <Typography
@@ -19,7 +19,6 @@ export default function HeaderText(props) {
       textAlign={align}
       fontFamily={"Lato"}
       padding={padding}
-      paddingTop={paddingTop}
     >
       {text}
     </Typography>

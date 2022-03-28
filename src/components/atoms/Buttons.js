@@ -10,7 +10,6 @@ function Btns({
     width,
     maxWidth,
     margin,
-    marginTop,
     padding, 
 
 }) {
@@ -25,7 +24,7 @@ function Btns({
                 maxWidth: maxWidth,
                 margin: margin,
                 padding: padding,
-                marginTop: marginTop
+                
             }}
             startIcon={startIcon}
             endIcon={endIcon}
