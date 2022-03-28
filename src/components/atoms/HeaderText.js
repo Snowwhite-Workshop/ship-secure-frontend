@@ -4,12 +4,12 @@ import Typography from "@mui/material/Typography";
 export default function HeaderText(props) {
   const {
     color = "#850DCE",
-    size = "24px",
+    size="40px",
     text,
     weight = "700",
     align = "center",
-    padding = '',
-    paddingTop='',
+    padding,
+    paddingTop,
   } = props;
   return (
     <Typography
