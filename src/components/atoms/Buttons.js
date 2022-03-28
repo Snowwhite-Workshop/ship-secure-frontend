@@ -10,7 +10,9 @@ function Btns({
     width,
     maxWidth,
     margin,
-    padding
+    marginTop,
+    padding, 
+
 }) {
     return (
         < Button
@@ -22,7 +24,8 @@ function Btns({
                 width: width,
                 maxWidth: maxWidth,
                 margin: margin,
-                padding: padding
+                padding: padding,
+                marginTop: marginTop
             }}
             startIcon={startIcon}
             endIcon={endIcon}
