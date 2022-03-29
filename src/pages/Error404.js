@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import ExitIcon from "../components/atoms/ExitIcon";
 import HeaderText from "../components/atoms/HeaderText";
 import RegularText from "../components/atoms/RegularText";

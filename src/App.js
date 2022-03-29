@@ -1,13 +1,13 @@
 import { ThemeProvider } from "@mui/material/styles";
 import { theme } from "./utils/theme";
 import "./index";
-import Error404 from "./pages/Error404";
+import Error400 from "./pages/Error400";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <Error404 />
+        <Error400 />
       </div>
     </ThemeProvider>
   );
